@@ -29,6 +29,8 @@ public class Client{
                     String[] cookieValue = response.split(" ");
                     System.out.printf("Cookie from server >> %s\n", cookieValue[1]);
 
+                }else{
+                    System.out.println("Invalid Command!");
                 }
                 is.close();
                 os.close();
